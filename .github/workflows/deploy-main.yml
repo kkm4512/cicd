@@ -21,7 +21,7 @@ jobs:
           project: kkm4512/cicd
           stage: main
           yaml: |
-            name: cicd
+            name: # 프로젝트 이름 ex) `cicd`
             app: java@17
             options:
               ports: 8080
